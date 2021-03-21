@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -27,7 +27,6 @@
 .App-link {
   color: #61dafb;
 }
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +34,38 @@
   to {
     transform: rotate(360deg);
   }
+} */
+/* .qBar{
+  background-color: rgb(157, 157, 158);
+  height: 15px;
+} */
+
+.root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(231, 230, 230);
+}
+.optBtn{
+  width: 40%;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.selBtn{
+  background-color: black;
+  color: azure;
+  width: 40%;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.nxt{
+  width: 40%;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
 }
